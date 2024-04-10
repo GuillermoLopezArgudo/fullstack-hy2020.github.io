@@ -579,6 +579,10 @@ Al utilizar Render, la URL de la base de datos se proporciona definiendo la vari
 
 Solo establece a la URL comenzando con <i>mongodb+srv://...</i> al campo _value_.
 
+Recordar modificar la WhiteList de MongoDB para poder acceder a ella desde render cogiendo la IP estatica (pichar encima de "Conectar") 
+
+WhiteList MongoDB (Seguridad > Acceso A La Red > Agregar Dirección IP)
+
 ### Usando la base de datos en los controladores de ruta
 
 A continuación, cambiemos el resto de la funcionalidad del backend para usar la base de datos.
